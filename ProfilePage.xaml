@@ -115,7 +115,7 @@
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <ActivityIndicator IsVisible="true" IsRunning="true" Margin="5" Grid.Column="0"/>
+                        <ActivityIndicator IsVisible="true" IsRunning="true" Margin="5" Grid.Column="0" Color="DeepSkyBlue"/>
                         <Label x:Name="lbl_PleaseWait"
                                Text="Resolving District as per your location ..."
                                TextColor="Black"

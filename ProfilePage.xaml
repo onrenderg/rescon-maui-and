@@ -71,7 +71,7 @@
                         <Label x:Name="lbl_email" Text="Email *" FontSize="20" FontAttributes="Bold" Grid.Row="4"/>
                         <Entry x:Name="entry_email" FontSize="20" MaxLength="50" Keyboard="Email" Grid.Row="5"/>
 
-                        <Label x:Name="lbl_District" Text="District *" FontSize="20" FontAttributes="Bold" Grid.Row="6"/>
+                        <Label x:Name="lbl_District" Text="District " FontSize="20" FontAttributes="Bold" Grid.Row="6"/>
                         <Grid ColumnDefinitions="*,Auto" Grid.Row="7">
                             <Picker Title="Select District" x:Name="Picker_District" SelectedIndexChanged="Picker_District_SelectedIndexChanged" Grid.Column="0" FontSize="20" />
                             <Button x:Name="Btn_getdistrict"
@@ -86,7 +86,7 @@
 
                         <Label x:Name="lbl_fallinzone" Text="You fall in Zone : " FontSize="20" HorizontalOptions="Center" FontAttributes="Bold" Grid.Row="8"/>
 
-                        <Label x:Name="lbl_place" Text="Enter Place Of construction *" FontSize="20" FontAttributes="Bold" Grid.Row="9"/>
+                        <Label x:Name="lbl_place" Text="Enter Place Of construction " FontSize="20" FontAttributes="Bold" Grid.Row="9"/>
                         <Entry x:Name="entry_place" Placeholder="Enter Place Of construction" FontSize="20" MaxLength="50" Keyboard="Text" Grid.Row="10"/>
 
                     </Grid>

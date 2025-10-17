@@ -132,11 +132,7 @@
 		<PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.10" />
 	</ItemGroup>
 
-	<!-- <ItemGroup>
-		Exclude TmpPage XAML and its code-behind
-		<Page Remove="TmpPage.xaml" />
-		<Compile Remove="TmpPage.xaml.cs" />
-	</ItemGroup> -->
+	<!-- TmpPage files are valid but not used in the application -->
 <!-- 
 	<ItemGroup>
 		<Compile Remove="tmpFiles\**" />

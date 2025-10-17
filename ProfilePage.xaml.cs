@@ -226,7 +226,7 @@ namespace ResillentConstruction
            
             lbl_mandatory.Text = App.LableText("mandatory");
             lbl_user_header1.Text = App.LableText("profile");
-            lbl_District.Text = App.LableText("districthouse") + "*";
+            lbl_District.Text = App.LableText("districthouse");
             lbl_name.Text = App.LableText("name") + "*";
             entry_name.Placeholder = App.LableText("entname");
 
@@ -236,7 +236,7 @@ namespace ResillentConstruction
             lbl_email.Text = App.LableText("email");
             entry_email.Placeholder = App.LableText("entemail");
 
-            lbl_place.Text = App.LableText("Placeofconstruction") + "*";
+            lbl_place.Text = App.LableText("Placeofconstruction");
             entry_place.Placeholder = App.LableText("enter") + App.LableText("Placeofconstruction");
 
 

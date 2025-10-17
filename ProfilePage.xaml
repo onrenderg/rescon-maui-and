@@ -68,7 +68,7 @@
                         <Label x:Name="lbl_mobile" Text="Mobile *" FontSize="20" FontAttributes="Bold" Grid.Row="2"/>
                         <Entry x:Name="entry_mobile" FontSize="20" MaxLength="10" Keyboard="Numeric" Grid.Row="3"/>
 
-                        <Label x:Name="lbl_email" Text="Email *" FontSize="20" FontAttributes="Bold" Grid.Row="4"/>
+                        <Label x:Name="lbl_email" Text="Email " FontSize="20" FontAttributes="Bold" Grid.Row="4"/>
                         <Entry x:Name="entry_email" FontSize="20" MaxLength="50" Keyboard="Email" Grid.Row="5"/>
 
                         <Label x:Name="lbl_District" Text="District " FontSize="20" FontAttributes="Bold" Grid.Row="6"/>

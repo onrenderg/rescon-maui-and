@@ -457,14 +457,22 @@
         <Setter Property="HorizontalTextAlignment" Value="Center"/>
     </Style>
 
-    <Style x:Key="NavigationLabelColor" TargetType="Label">
+    <Style x:Key="NavigationHeaderStyle" TargetType="Label">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="VerticalTextAlignment" Value="Center"/>
+        <Setter Property="TextColor" Value="{AppThemeBinding Light={StaticResource Light_Lbl_Text_Color}, Dark={StaticResource Dark_Lbl_Text_Color}}"/>
+    </Style>
+
+    <!-- <Style x:Key="NavigationLabelColor" TargetType="Label">
         <Setter Property="TextColor">
             <OnPlatform x:TypeArguments="Color">
                 <On Platform="Android">White</On>
                 <On Platform="iOS">Black</On>
             </OnPlatform>
         </Setter>
-    </Style>
+    </Style> -->
 
     <Style x:Key="ButtonStyle" TargetType="Button">
         <Setter Property="BackgroundColor" Value="{AppThemeBinding Light={StaticResource Light_Btn_Background_Color}, Dark={StaticResource Dark_Btn_Background_Color}}" />

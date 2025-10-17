@@ -14,7 +14,7 @@
             </Grid.ColumnDefinitions>
             <Image Source="ic_himachallogo.png" HeightRequest="40" WidthRequest="40" Grid.Column="0" VerticalOptions="Center"/>
             <Grid Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center">
-                <Label x:Name="lbl_navigation_header"  FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                <Label x:Name="lbl_navigation_header" Style="{StaticResource NavigationHeaderStyle}" />
             </Grid>
             <Image Source="ic_launcher.png" HeightRequest="40" Grid.Column="2" VerticalOptions="Center"/>
         </Grid>

@@ -9,7 +9,7 @@
         <Grid x:Name="Custom_Navigation" ColumnDefinitions="Auto,*" VerticalOptions="Fill" HorizontalOptions="Fill">
             <Image Grid.Column="0" Source="ic_himachallogo.png" HeightRequest="40" WidthRequest="40" VerticalOptions="Center"/>
             <StackLayout Grid.Column="1" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center" Spacing="0">
-                <Label x:Name="lbl_navigation_header"  FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                <Label x:Name="lbl_navigation_header" Style="{StaticResource NavigationHeaderStyle}" />
             </StackLayout>
         </Grid>
     </NavigationPage.TitleView>

@@ -130,11 +130,10 @@
                                 <Image Source="ic_query.png" HeightRequest="20" Grid.Column="0"/>
                                 <Label x:Name="lbl_raisequery" Text="Raise Query" FontSize="16" FontAttributes="Bold" Grid.Column="1"/>
                             </Grid>
-                    <BoxView  x:Name="BoxView_Delete"  BackgroundColor="SkyBlue" HeightRequest="1" Margin="10,0,0,0" Grid.Row="6"/>
-
                     <!--delete account option 
                                 Are you sure you want to delete the account \n. Once deleted, your data will be deleted permenanty and cannot be recovered  
 -->
+                    <BoxView  x:Name="BoxView_Delete"  BackgroundColor="SkyBlue" HeightRequest="1" Margin="10,0,0,0" Grid.Row="12"/>
                           
                             <Grid Padding="5"  ColumnSpacing="10" Grid.Row="13" x:Name="grid_deleteuser">
                                 <Grid.GestureRecognizers>

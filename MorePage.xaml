@@ -119,19 +119,18 @@
                                 <Label x:Name="lbl_policy" Text="Privacy Policy" FontSize="16" FontAttributes="Bold" Grid.Column="1"/>
                             </Grid>
 
-                            <BoxView BackgroundColor="SkyBlue" HeightRequest="1" Margin="10,0,0,0"  Grid.Row="12"/>
+                            <BoxView x:Name="BoxView_RaiseQuery" BackgroundColor="SkyBlue" HeightRequest="1" Margin="10,0,0,0" Grid.Row="12" IsVisible="false"/>
                             <Grid Padding="5" IsVisible="false" ColumnSpacing="10" Grid.Row="13">
                                 <Grid.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="raisequerytapped" NumberOfTapsRequired="1" />        
                                 </Grid.GestureRecognizers>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto"/>
                                     <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
                                 <Image Source="ic_query.png" HeightRequest="20" Grid.Column="0"/>
                                 <Label x:Name="lbl_raisequery" Text="Raise Query" FontSize="16" FontAttributes="Bold" Grid.Column="1"/>
                             </Grid>
-                    <BoxView BackgroundColor="SkyBlue" HeightRequest="1" Margin="10,0,0,0" Grid.Row="6"/>
+                    <BoxView  x:Name="BoxView_Delete"  BackgroundColor="SkyBlue" HeightRequest="1" Margin="10,0,0,0" Grid.Row="6"/>
 
                     <!--delete account option 
                                 Are you sure you want to delete the account \n. Once deleted, your data will be deleted permenanty and cannot be recovered  

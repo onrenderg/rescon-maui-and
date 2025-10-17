@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <?xaml-comp compile="true" ?>
 <ResourceDictionary 
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
@@ -42,4 +42,35 @@
     <SolidColorBrush x:Key="Gray600Brush" Color="{StaticResource Gray600}"/>
     <SolidColorBrush x:Key="Gray900Brush" Color="{StaticResource Gray900}"/>
     <SolidColorBrush x:Key="Gray950Brush" Color="{StaticResource Gray950}"/>
+
+    <!-- Custom App Colors from App.xaml -->
+    <!-- Light Theme Colors -->
+    <Color x:Key="Light_Btn_Text_Color">White</Color>
+    <Color x:Key="Light_Btn_Background_Color">#0f0f0f</Color>
+    <Color x:Key="Light_Btn_Danger_Text_Color">White</Color>
+    <Color x:Key="Light_Btn_Danger_Background_Color">OrangeRed</Color>
+    <Color x:Key="Light_Lbl_Text_Color">White</Color>
+    <Color x:Key="Light_Lbl_Text_Color1">#0f0f0f</Color>
+    <Color x:Key="Footer_Label_Text_Color">White</Color>
+    <Color x:Key="Light_Frame_Background_Color">Transparent</Color>
+    <Color x:Key="Light_Frame_Border_Color">#0f0f0f</Color>
+    <Color x:Key="Light_Grid_Background_Color">#F5F5F5</Color>
+    <Color x:Key="Light_Grid_Background_tab_Color">#90a3f0</Color>
+    <Color x:Key="Light_Calender_Grid_Background_Color">#ebf0f0</Color>
+    <Color x:Key="Light_Calender_Stack_Background_Color">White</Color>
+
+    <!-- Dark Theme Colors -->
+    <Color x:Key="Dark_Btn_Text_Color">White</Color>
+    <Color x:Key="Dark_Btn_Background_Color">#0f0f0f</Color>
+    <Color x:Key="Dark_Btn_Danger_Text_Color">White</Color>
+    <Color x:Key="Dark_Btn_Danger_Background_Color">OrangeRed</Color>
+    <Color x:Key="Dark_Lbl_Text_Color">White</Color>
+    <Color x:Key="Dark_Frame_Background_Color">Transparent</Color>
+    <Color x:Key="Dark_Frame_Border_Color">#0f0f0f</Color>
+    <Color x:Key="Dark_Frame_Loading_Border_Color">#0f0f0f</Color>
+    <Color x:Key="Dark_Grid_Background_Color">#4F4B4B</Color>
+    <Color x:Key="Dark_Grid_Background_tab_Color">#4F4B4B</Color>
+    <Color x:Key="Dark_Calender_Grid_Background_Color">#4F4B4B</Color>
+    <Color x:Key="Dark_Calender_Stack_Background_Color">Black</Color>
+
 </ResourceDictionary>

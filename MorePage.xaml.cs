@@ -42,6 +42,7 @@ namespace ResillentConstruction
             {
                 stack_profile.IsVisible = false;
                 grid_deleteuser.IsVisible = false;
+                BoxView_Delete.IsVisible = false;
             }
 
 
